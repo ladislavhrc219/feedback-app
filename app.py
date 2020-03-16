@@ -15,7 +15,7 @@ if ENV == 'dev':
     app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:123456@localhost/vertu' #*passwrd auth failed here several times
 else:
     app.debug = False
-    app.config['SQLALCHEMY_DATABASE_URI'] = 'postgres://uzbxfmqrufwuvo:88bedd9be73eaad6a6b3d37d00bb20447c058cde1bd82d3ce242918c9795d0a7@ec2-35-174-88-65.compute-1.amazonaws.com:5432/d10oika8g81b7'
+    app.config['SQLALCHEMY_DATABASE_URI'] = 'postgres://bdmygakgueihuo:a1b07719e39012a50bf75085d208f57c8f06813d15d5e9d195c3b2f88d8d3047@ec2-35-174-88-65.compute-1.amazonaws.com:5432/d908dmol2ppd2j'
 
 # ? adding config value  to track modifications 
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
